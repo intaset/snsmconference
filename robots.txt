@@ -1,3 +1,3 @@
-Sitemap: http://www.mhciconference.com/sitemap.xml
+Sitemap: http://www.snsmconference.com/sitemap.xml
 
 User-agent: *

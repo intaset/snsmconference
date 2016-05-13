@@ -1,6 +1,6 @@
 <?php
 
-$my_email = "info@mhciconference.com";
+$my_email = "info@snsmconference.com";
 
 /*
 
@@ -122,8 +122,8 @@ mail($my_email,$subject,$message,$headers);
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="robots" content="noarchive">
 <meta name="description" content="">
-<meta name="keywords" content="">
-<title>MHCI'16 - Contact Us</title>
+<meta name="keywords" content="computer science conference, multimedia conference, human computer interaction conference, information technology conference, information system conference, ergonomics conference, human factors conference, cybernetics conference, computer science, multimedia, human computer interaction, information technology, information system, ergonomics, human factors, cybernetics">
+<title>SNSM'17 - Contact Us</title>
 
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
@@ -152,7 +152,7 @@ mail($my_email,$subject,$message,$headers);
 
 <body>
 <nav id="slide-menu">
-  <h1>MHCI'16</h1>
+  <h1>SNSM'17</h1>
   <ul>
     <li><a href="/">Home</a></li>
     <li><a href="../papers">Paper Submissions</a></li>
@@ -172,30 +172,30 @@ mail($my_email,$subject,$message,$headers);
 <div id="content">
   <div class="desktop">
   <div class="cbp-af-header">
-	<div class="cbp-af-inner">
-		<a href="/"><img src="../img/logo.png" class="flex-logo"></a>
-			<nav>
-				<a href="/">Home</a><p class="dot">&middot;</p><a href="../papers">Paper Submission</a><p class="dot">&middot;</p><a href="../program">Program</a><p class="dot">&middot;</p><a href="../dates">Important Dates</a><p class="dot">&middot;</p><a href="../registration">Registration</a><p class="dot">&middot;</p><a href="../committee">Committee</a><p class="dot">&middot;</p><a href="../keynote">Keynotes</a><p class="dot">&middot;</p><a href="../sponsor">Sponsors</a><p class="dot">&middot;</p><a href="../venue">Venue</a><p class="dot">&middot;</p><a href="../accommodation">Accommodation</a><p class="dot">&middot;</p><a href="../symposium">Symposiums</a><p class="dot">&middot;</p><a href="#contact">Contact Us</a>
-		</nav>
-	</div>
+  <div class="cbp-af-inner">
+    <a href="/"><img src="../img/logo.png" class="flex-logo"></a>
+      <nav>
+        <a href="/">Home</a><p class="dot">&middot;</p><a href="../papers">Paper Submission</a><p class="dot">&middot;</p><a href="../program">Program</a><p class="dot">&middot;</p><a href="../dates">Important Dates</a><p class="dot">&middot;</p><a href="../registration">Registration</a><p class="dot">&middot;</p><a href="../committee">Committee</a><p class="dot">&middot;</p><a href="../keynote">Keynotes</a><p class="dot">&middot;</p><a href="../sponsor">Sponsors</a><p class="dot">&middot;</p><a href="../venue">Venue</a><p class="dot">&middot;</p><a href="../accommodation">Accommodation</a><p class="dot">&middot;</p><a href="../symposium">Symposiums</a><p class="dot">&middot;</p><a href="#contact">Contact Us</a>
+    </nav>
+  </div>
 </div>
 </div>
 
   <header>
     <div class="mobile">
       <div class="cbp-af-header">
-	<div class="cbp-af-inner">
-		<div class="unit unit-s-3-4 unit-m-1-3 unit-l-1-3">
-      		<a href="/"><img src="../img/logo.png" class="flex-logo"></a>
-   	 	</div>
-    	<div class="unit unit-s-1-3 unit-m-2-3 unit-m-2-3-1 unit-l-2-3">
-      		<div class="menu-trigger"></div>
-  		</div>
-	</div>
+  <div class="cbp-af-inner">
+    <div class="unit unit-s-3-4 unit-m-1-3 unit-l-1-3">
+          <a href="/"><img src="../img/logo.png" class="flex-logo"></a>
+      </div>
+      <div class="unit unit-s-1-3 unit-m-2-3 unit-m-2-3-1 unit-l-2-3">
+          <div class="menu-trigger"></div>
+      </div>
+  </div>
 </div>
         <div class="bg">
-          <h1>4<sup>th</sup> International Conference on Multimedia<br>and Human-Computer Interaction (MHCI'16)</h1>
-          <p class="subhead">August 17 - 18, 2016 | Budapest, Hungary</p>
+          <h1>International Conference on Social<br>Networks and Social Media (SNSM'17)</h1>
+          <p class="subhead">June 5 - 6, 2017 | Rome, Italy</p>
 
           <a href="../papers" class="bg-link">Paper Submission</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -220,8 +220,8 @@ mail($my_email,$subject,$message,$headers);
         </div>
 
         <div class="bg">
-          <h1>4<sup>th</sup> International Conference on Multimedia<br>and Human-Computer Interaction (MHCI'16)</h1>
-          <p class="subhead">August 17 - 18, 2016 | Budapest, Hungary</p>
+          <h1>International Conference on Social<br>Networks and Social Media (SNSM'17)</h1>
+          <p class="subhead">June 5 - 6, 2017 | Rome, Italy</p>
 
           <a href="../papers" class="bg-link">Paper Submission</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -248,8 +248,8 @@ mail($my_email,$subject,$message,$headers);
       <div id="main-slider" class="liquid-slider">
     <div>
       <h2 class="title">1</h2>
-      <p class="bold">MHCI 2016:</p>
-      <p class="body">MHCI 2016 will  be held in Ottawa, Canada on August 17 - 18, 2016.</p>
+      <p class="bold">SNSM 2017:</p>
+      <p class="body">SNSM 2017 will  be held in Rome, Italy on June 5 - 6, 2017.</p>
     </div>          
     <div>
       <h2 class="title">2</h2>
@@ -264,91 +264,92 @@ mail($my_email,$subject,$message,$headers);
 <div class="unit unit-s-1 unit-m-1-4-1 unit-l-1-4-1">
   <div class="unit-spacer content">
     <p class="body">We have received your message and we will try our best to get back to you within the next 48 hours.<br><br>
-    Thank you for your interest in MHCI'16.</p>
+    Thank you for your interest in SNSM'17.</p>
   </div>
 </div>
 
   <div class="unit unit-s-1 unit-m-1-3-1 unit-l-1-3-1">
   <div class="unit-spacer">
     <section class="main">
-				<div class="custom-calendar-wrap">
-					<div id="custom-inner" class="custom-inner">
-						<div class="custom-header clearfix">
-							<nav>
-								<span id="custom-prev" class="custom-prev"></span>
-								<span id="custom-next" class="custom-next"></span>
-							</nav>
-							<h2 id="custom-month" class="custom-month"></h2>
-							<h3 id="custom-year" class="custom-year"></h3>
-						</div>
-						<div id="calendar" class="fc-calendar-container"></div>
-					</div>
-				</div>
-			</section>
-<!--     <h2>Upcoming Dates</h2>
+        <div class="custom-calendar-wrap">
+          <div id="custom-inner" class="custom-inner">
+            <div class="custom-header clearfix">
+              <nav>
+                <span id="custom-prev" class="custom-prev"></span>
+                <span id="custom-next" class="custom-next"></span>
+              </nav>
+              <h2 id="custom-month" class="custom-month"></h2>
+              <h3 id="custom-year" class="custom-year"></h3>
+            </div>
+            <div id="calendar" class="fc-calendar-container"></div>
+          </div>
+        </div>
+      </section>
+    <h2>Upcoming Dates</h2>
 
 <div class="grid events">
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
-	<div class="date">
-		Dec. 10, 2015
-	</div>
+  <div class="date">
+    Nov. 1, 2016
+  </div>
 </div>
 
 <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
-	<div class="unit-spacer">
-		Paper Submission Deadline
-	</div>
-</div>
-</div>
-
-<div class="grid events">
-<div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
-	<div class="date">
-		Jan. 25, 2016
-	</div>
-</div>
-
-<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
-	<div class="unit-spacer">
-		Notification of Authors
-	</div>
+  <div class="unit-spacer">
+    Paper Submission Deadline
+  </div>
 </div>
 </div>
 
 <div class="grid events">
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
-	<div class="date">
-		Feb. 20, 2016
-	</div>
+  <div class="date">
+    Jan. 15, 2017
+  </div>
 </div>
 
 <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
-	<div class="unit-spacer">
-		Camera Ready Submission Deadline
-	</div>
+  <div class="unit-spacer">
+    Notification of Authors
+  </div>
 </div>
-</div> -->
+</div>
+
+<div class="grid events">
+<div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
+  <div class="date">
+    Feb. 1, 2017
+  </div>
+</div>
+
+<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
+  <div class="unit-spacer">
+    Final Version of Extended Abstract or Paper Submission Deadline
+  </div>
+</div>
+</div>
+
   </div>
   </div>
 </div>
 
 <footer id="contact">
-	<div class="grid">
-	<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
-	<div class="unit-spacer">
-		<h2>Contact Us</h2>
-		<p class="body">International ASET Inc.<br>
-		Unit No. 417, 1376 Bank St.<br>
-		Ottawa, Ontario, Canada<br>
-		Postal Code: K1H 7Y3<br>
-		+1-613-695-3040<br>
-		<a href="mailto:info@mhciconference.com">info@mhciconference.com</a></p>
-		</div>
-	</div>
+  <div class="grid">
+  <div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
+  <div class="unit-spacer">
+    <h2>Contact Us</h2>
+    <p class="body">International ASET Inc.<br>
+    Unit No. 417, 1376 Bank St.<br>
+    Ottawa, Ontario, Canada<br>
+    Postal Code: K1H 7Y3<br>
+    +1-613-695-3040<br>
+    <a href="mailto:info@snsmconference.com">info@snsmconference.com</a></p>
+    </div>
+  </div>
 
-	<div class="unit unit-s-1 unit-m-2-3 unit-l-2-3 contact">
-	<div class="unit-spacer">
-	<p class="body">For questions or comments regarding MHCI'16, please fill out the form below:</p>
+  <div class="unit unit-s-1 unit-m-2-3 unit-l-2-3 contact">
+  <div class="unit-spacer">
+  <p class="body">For questions or comments regarding SNSM'17, please fill out the form below:</p>
 
     <form action="../contactus.php" method="post" enctype="multipart/form-data" name="ContactForm">
   
@@ -398,14 +399,14 @@ mail($my_email,$subject,$message,$headers);
         
 </form>
     </div>
-	</div>
-	</div>
+  </div>
+  </div>
 </footer> 
 
 <div class="copyright">
-	<a href="international-aset.com">International ASET Inc.</a> | <a href="http://international-aset.com/phplistpublic/?p=subscribe&id=1">Subscribe</a> | <a href="../terms">Terms of Use</a> | <a href="../sitemap">Sitemap</a>
-	<p class="body">&copy; Copyright International ASET Inc., 2015. All rights reserved.</p>
-	<p class="copyright1">Have any feedback? Please provide them here: <script>var refURL = window.location.protocol + "//" + window.location.host + window.location.pathname; document.write('<a href="http://international-aset.com/feedback/?refURL=' + refURL+'" class="body-link">Feedback</a>');</script></p>
+  <a href="international-aset.com">International ASET Inc.</a> | <a href="http://international-aset.com/phplistpublic/?p=subscribe&id=1">Subscribe</a> | <a href="../terms">Terms of Use</a> | <a href="../sitemap">Sitemap</a>
+  <p class="body">&copy; Copyright International ASET Inc., 2016. All rights reserved.</p>
+  <p class="copyright1">Have any feedback? Please provide them here: <script>var refURL = window.location.protocol + "//" + window.location.host + window.location.pathname; document.write('<a href="http://international-aset.com/feedback/?refURL=' + refURL+'" class="body-link">Feedback</a>');</script></p>
 </div>
 </div>
 

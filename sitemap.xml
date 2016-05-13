@@ -4,9 +4,9 @@
 
    <url>
 
-      <loc>http://www.mhciconference.com/index.html</loc>
+      <loc>http://www.snsmconference.com/index.html</loc>
 
-      <lastmod>2015-07-21</lastmod>
+      <lastmod>2016-05-13</lastmod>
 
       <priority>0.8</priority>
 
@@ -14,19 +14,9 @@
 
   <url>
 
-      <loc>http://www.mhciconference.com/papers.html</loc>
+      <loc>http://www.snsmconference.com/papers.html</loc>
 
-      <lastmod>2015-07-21</lastmod>
-
-      <priority>0.8</priority>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.mhciconference.com/program.html</loc>
-
-      <lastmod>2015-07-21</lastmod>
+      <lastmod>2016-05-13</lastmod>
 
       <priority>0.8</priority>
 
@@ -34,19 +24,9 @@
 
    <url>
 
-      <loc>http://www.mhciconference.com/dates.html</loc>
+      <loc>http://www.snsmconference.com/program.html</loc>
 
-      <lastmod>2015-07-21</lastmod>
-
-      <priority>0.8</priority>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.mhciconference.com/registration.html</loc>
-
-      <lastmod>2015-07-21</lastmod>
+      <lastmod>2016-05-13</lastmod>
 
       <priority>0.8</priority>
 
@@ -54,19 +34,9 @@
 
    <url>
 
-      <loc>http://www.mhciconference.com/committee.html</loc>
+      <loc>http://www.snsmconference.com/dates.html</loc>
 
-      <lastmod>2015-07-21</lastmod>
-
-      <priority>0.8</priority>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.mhciconference.com/keynote.html</loc>
-
-      <lastmod>2015-07-21</lastmod>
+      <lastmod>2016-05-13</lastmod>
 
       <priority>0.8</priority>
 
@@ -74,19 +44,9 @@
 
    <url>
 
-      <loc>http://www.mhciconference.com/sponsor.html</loc>
+      <loc>http://www.snsmconference.com/registration.html</loc>
 
-      <lastmod>2015-07-21</lastmod>
-
-      <priority>0.8</priority>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.mhciconference.com/venue.html</loc>
-
-      <lastmod>2015-07-21</lastmod>
+      <lastmod>2016-05-13</lastmod>
 
       <priority>0.8</priority>
 
@@ -94,9 +54,9 @@
 
    <url>
 
-      <loc>http://www.mhciconference.com/accommodation.html</loc>
+      <loc>http://www.snsmconference.com/committee.html</loc>
 
-      <lastmod>2015-07-21</lastmod>
+      <lastmod>2016-05-13</lastmod>
 
       <priority>0.8</priority>
 
@@ -104,9 +64,49 @@
 
    <url>
 
-      <loc>http://www.mhciconference.com/symposium.html</loc>
+      <loc>http://www.snsmconference.com/keynote.html</loc>
 
-      <lastmod>2015-07-21</lastmod>
+      <lastmod>2016-05-13</lastmod>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.snsmconference.com/sponsor.html</loc>
+
+      <lastmod>2016-05-13</lastmod>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.snsmconference.com/venue.html</loc>
+
+      <lastmod>2016-05-13</lastmod>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.snsmconference.com/accommodation.html</loc>
+
+      <lastmod>2016-05-13</lastmod>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.snsmconference.com/symposium.html</loc>
+
+      <lastmod>2016-05-13</lastmod>
 
       <priority>0.8</priority>
 

@@ -1,5 +1,5 @@
 <?php
-$my_email = "registration@mhciconference.com";
+$my_email = "registration@snsmconference.com";
 $errors = array();
 
 // Remove $_COOKIE elements from $_REQUEST.
@@ -14,23 +14,23 @@ if(!defined("PHP_EOL")){define("PHP_EOL", strtoupper(substr(PHP_OS,0,3) == "WIN"
 
 // Build message.
 function build_message($request_input){
-	if(!isset($message_output)){
-		$message_output ="";
-	}
-	if(!is_array($request_input)){
-		$message_output = $request_input;
-	}else{
-		foreach($request_input as $key => $value){
-			if(!empty($value)){
-				if(!is_numeric($key)){
-					$message_output .= str_replace("_"," ",ucfirst($key)).": ".build_message($value).PHP_EOL.PHP_EOL;
-				}else{
-					$message_output .= build_message($value).", ";
-				}
-			}
-		}
-	}
-	return rtrim($message_output,", ");
+  if(!isset($message_output)){
+    $message_output ="";
+  }
+  if(!is_array($request_input)){
+    $message_output = $request_input;
+  }else{
+    foreach($request_input as $key => $value){
+      if(!empty($value)){
+        if(!is_numeric($key)){
+          $message_output .= str_replace("_"," ",ucfirst($key)).": ".build_message($value).PHP_EOL.PHP_EOL;
+        }else{
+          $message_output .= build_message($value).", ";
+        }
+      }
+    }
+  }
+  return rtrim($message_output,", ");
 }
 
 // Defining the Variables
@@ -41,11 +41,11 @@ $message = build_message($_REQUEST);
 
 $message = 'Dear Colleague,
 
-Thank you for registering for MHCI 2016. If you have requested any official letters, please allow up to 5 business days to receive your documents.
+Thank you for registering for SNSM 2017. If you have requested any official letters, please allow up to 5 business days to receive your documents.
 
-If you are an author, please make sure to send us your camera ready version and a signed copyright form via email to info@mhciconference.com. You can find the copyright form here: www.mhciconference.com/papers. Please note that failing to do so may result in an unsuccessful process of your registration.
+If you are an author, please make sure to send us your camera ready version and a signed copyright form via email to info@snsmconference.com. You can find the copyright form here: www.snsmconference.com/papers. Please note that failing to do so may result in an unsuccessful process of your registration.
 
-You can find your registration details below. If there are any errors in the information you have provided, please write an email to us at registration@mhciconference.com mentioning the correct information. Please note that you SHOULD NOT refill the form.
+You can find your registration details below. If there are any errors in the information you have provided, please write an email to us at registration@snsmconference.com mentioning the correct information. Please note that you SHOULD NOT refill the form.
 
 ---
 
@@ -65,9 +65,9 @@ $headers = "From: " . $_REQUEST['Email'];
 
 $your_email = $_REQUEST['Email'];
 
-$your_subject = "Your Registration Details for MHCI'16";
+$your_subject = "Your Registration Details for SNSM'17";
 
-$your_headers = "From: MHCI'16 <" . $my_email . ">";
+$your_headers = "From: SNSM'17 <" . $my_email . ">";
 
 if ((($_FILES["file"]["type"] == "image/gif")
 
@@ -92,14 +92,14 @@ if ((($_FILES["file"]["type"] == "image/gif")
     {
       move_uploaded_file($_FILES["file"]["tmp_name"],"receipts/" . $_FILES["file"]["name"]);
       rename("receipts/".$_FILES['file']['name'],"receipts/".$date.'_'.$_FILES['file']['name']);
-	$filename = $date.'_'.$_FILES['file']['name'];
+  $filename = $date.'_'.$_FILES['file']['name'];
     }
   }
 else
   {
   die("The file you have selected for upload is invalid. <br />
-	Please make sure the file you are trying to upload is an image (.jpg, .jpeg, .png, .gif, .tif) <br />
-	No other file types are allowed.");
+  Please make sure the file you are trying to upload is an image (.jpg, .jpeg, .png, .gif, .tif) <br />
+  No other file types are allowed.");
   }
 
 mail($my_email,$subject,$message,$headers);
@@ -112,8 +112,8 @@ mail($your_email,$your_subject,$message,$your_headers);
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="robots" content="noarchive">
 <meta name="description" content="">
-<meta name="keywords" content="">
-<title>MHCI'16 - Registration Form Filled!</title>
+<meta name="keywords" content="computer science conference, multimedia conference, human computer interaction conference, information technology conference, information system conference, ergonomics conference, human factors conference, cybernetics conference, computer science, multimedia, human computer interaction, information technology, information system, ergonomics, human factors, cybernetics">
+<title>SNSM'17 - Registration Form Filled!</title>
 
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
@@ -128,7 +128,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 <script src="../js/modernizr.custom.63321.js"></script>
 <script>
   (function() {
-    var cx = '016656741306535874023:y7as1mei7la';
+    var cx = '016656741306535874023:ghcpifowuow';
     var gcse = document.createElement('script');
     gcse.type = 'text/javascript';
     gcse.async = true;
@@ -142,7 +142,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 
 <body>
 <nav id="slide-menu">
-  <h1>MHCI'16</h1>
+  <h1>SNSM'17</h1>
   <ul>
     <li><a href="/">Home</a></li>
     <li><a href="../papers">Paper Submissions</a></li>
@@ -162,30 +162,30 @@ mail($your_email,$your_subject,$message,$your_headers);
 <div id="content">
   <div class="desktop">
   <div class="cbp-af-header">
-	<div class="cbp-af-inner">
-		<a href="/"><img src="../img/logo.png" class="flex-logo"></a>
-			<nav>
-				<a href="/">Home</a><p class="dot">&middot;</p><a href="../papers">Paper Submission</a><p class="dot">&middot;</p><a href="../program">Program</a><p class="dot">&middot;</p><a href="../dates">Important Dates</a><p class="dot">&middot;</p><a href="../registration">Registration</a><p class="dot">&middot;</p><a href="../committee">Committee</a><p class="dot">&middot;</p><a href="../keynote">Keynotes</a><p class="dot">&middot;</p><a href="../sponsor">Sponsors</a><p class="dot">&middot;</p><a href="../venue">Venue</a><p class="dot">&middot;</p><a href="../accommodation">Accommodation</a><p class="dot">&middot;</p><a href="../symposium">Symposiums</a><p class="dot">&middot;</p><a href="#contact">Contact Us</a>
-		</nav>
-	</div>
+  <div class="cbp-af-inner">
+    <a href="/"><img src="../img/logo.png" class="flex-logo"></a>
+      <nav>
+        <a href="/">Home</a><p class="dot">&middot;</p><a href="../papers">Paper Submission</a><p class="dot">&middot;</p><a href="../program">Program</a><p class="dot">&middot;</p><a href="../dates">Important Dates</a><p class="dot">&middot;</p><a href="../registration">Registration</a><p class="dot">&middot;</p><a href="../committee">Committee</a><p class="dot">&middot;</p><a href="../keynote">Keynotes</a><p class="dot">&middot;</p><a href="../sponsor">Sponsors</a><p class="dot">&middot;</p><a href="../venue">Venue</a><p class="dot">&middot;</p><a href="../accommodation">Accommodation</a><p class="dot">&middot;</p><a href="../symposium">Symposiums</a><p class="dot">&middot;</p><a href="#contact">Contact Us</a>
+    </nav>
+  </div>
 </div>
 </div>
 
   <header>
     <div class="mobile">
       <div class="cbp-af-header">
-	<div class="cbp-af-inner">
-		<div class="unit unit-s-3-4 unit-m-1-3 unit-l-1-3">
-      		<a href="/"><img src="../img/logo.png" class="flex-logo"></a>
-   	 	</div>
-    	<div class="unit unit-s-1-3 unit-m-2-3 unit-m-2-3-1 unit-l-2-3">
-      		<div class="menu-trigger"></div>
-  		</div>
-	</div>
+  <div class="cbp-af-inner">
+    <div class="unit unit-s-3-4 unit-m-1-3 unit-l-1-3">
+          <a href="/"><img src="../img/logo.png" class="flex-logo"></a>
+      </div>
+      <div class="unit unit-s-1-3 unit-m-2-3 unit-m-2-3-1 unit-l-2-3">
+          <div class="menu-trigger"></div>
+      </div>
+  </div>
 </div>
         <div class="bg">
-          <h1>4<sup>th</sup> International Conference on Multimedia<br>and Human-Computer Interaction (MHCI'16)</h1>
-          <p class="subhead">August 17 - 18, 2016 | Budapest, Hungary</p>
+          <h1>International Conference on Social<br>aNetworks and Social Media (SNSM'17)</h1>
+          <p class="subhead">June 5 - 6, 2017 | Rome, Italy</p>
 
           <a href="../papers" class="bg-link">Paper Submission</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -210,8 +210,8 @@ mail($your_email,$your_subject,$message,$your_headers);
         </div>
 
         <div class="bg">
-          <h1>4<sup>th</sup> International Conference on Multimedia<br>and Human-Computer Interaction (MHCI'16)</h1>
-          <p class="subhead">August 17 - 18, 2016 | Budapest, Hungary</p>
+          <h1>International Conference on Social<br>Networks and Social Media (SNSM'17)</h1>
+          <p class="subhead">June 5 - 6, 2017 | Rome, Italy</p>
 
           <a href="../papers" class="bg-link">Paper Submission</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -238,15 +238,20 @@ mail($your_email,$your_subject,$message,$your_headers);
       <div id="main-slider" class="liquid-slider">
     <div>
       <h2 class="title">1</h2>
-      <p class="bold">MHCI 2016:</p>
-      <p class="body">MHCI 2016 will  be held in Ottawa, Canada on August 17 - 18, 2016.</p>
+      <p class="bold">SNSM 2016:</p>
+      <p class="body">SNSM 2016 will  be held in Rome, Italy on June 5 - 6, 2017.</p>
     </div>          
     <div>
       <h2 class="title">2</h2>
       <p class="bold">Best Paper Award:</p>
       <p class="body">Two best paper awards will be conferred to author(s) of the papers that receive the highest rank during the peer-review and by the respected session chairs. Please visit <a href="../papers" class="body-link">Paper Submission</a> for more information.</p>
     </div>
-
+    <div>
+      <h2 class="title">3</h2>
+      <p class="bold">Propose Exhibits, Workshops & More</p>
+      <p class="body">SNSM attracts a wide range of researchers in the field of nanotechnology. As a prominent company in the field of nanotechnology, we would like to offer you an exhibit at SNSM. Please visit <a href="../events" class="body-link">Events</a> for more information.</p>
+    </div>
+    
   </div>
     </div>
   </div>
@@ -257,95 +262,96 @@ mail($your_email,$your_subject,$message,$your_headers);
 
     <p class="body">If you do not receive an email, <strong>please check your SPAM folder</strong>.</p>
 
- 	<p class="body">If you have requested any official invitation letters, please allow up to 5 business days to receive your documents.</p> 
+  <p class="body">If you have requested any official invitation letters, please allow up to 5 business days to receive your documents.</p> 
 
-  	<p class="body">If there are any problems in the information you have filled out, please write an email to us at <a href="mailto:registration@mhciconference.com" class="body-link">registration@mhciconference.com</a> mentioning the mistakes made. Please note that you SHOULD NOT refill the form.</p>
+    <p class="body">If there are any problems in the information you have filled out, please write an email to us at <a href="mailto:registration@snsmconference.com" class="body-link">registration@snsmconference.com</a> mentioning the mistakes made. Please note that you SHOULD NOT refill the form.</p>
 
-	<p class="body">We are looking forward to seeing you at MHCI'16!</p>
+  <p class="body">We are looking forward to seeing you at SNSM'17!</p>
   </div>
 </div>
 
   <div class="unit unit-s-1 unit-m-1-3-1 unit-l-1-3-1">
   <div class="unit-spacer">
     <section class="main">
-				<div class="custom-calendar-wrap">
-					<div id="custom-inner" class="custom-inner">
-						<div class="custom-header clearfix">
-							<nav>
-								<span id="custom-prev" class="custom-prev"></span>
-								<span id="custom-next" class="custom-next"></span>
-							</nav>
-							<h2 id="custom-month" class="custom-month"></h2>
-							<h3 id="custom-year" class="custom-year"></h3>
-						</div>
-						<div id="calendar" class="fc-calendar-container"></div>
-					</div>
-				</div>
-			</section>
-<!--     <h2>Upcoming Dates</h2>
+        <div class="custom-calendar-wrap">
+          <div id="custom-inner" class="custom-inner">
+            <div class="custom-header clearfix">
+              <nav>
+                <span id="custom-prev" class="custom-prev"></span>
+                <span id="custom-next" class="custom-next"></span>
+              </nav>
+              <h2 id="custom-month" class="custom-month"></h2>
+              <h3 id="custom-year" class="custom-year"></h3>
+            </div>
+            <div id="calendar" class="fc-calendar-container"></div>
+          </div>
+        </div>
+      </section>
+    <h2>Upcoming Dates</h2>
 
 <div class="grid events">
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
-	<div class="date">
-		Dec. 10, 2015
-	</div>
+  <div class="date">
+    Nov. 1, 2016
+  </div>
 </div>
 
 <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
-	<div class="unit-spacer">
-		Paper Submission Deadline
-	</div>
-</div>
-</div>
-
-<div class="grid events">
-<div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
-	<div class="date">
-		Jan. 25, 2016
-	</div>
-</div>
-
-<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
-	<div class="unit-spacer">
-		Notification of Authors
-	</div>
+  <div class="unit-spacer">
+    Paper Submission Deadline
+  </div>
 </div>
 </div>
 
 <div class="grid events">
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
-	<div class="date">
-		Feb. 20, 2016
-	</div>
+  <div class="date">
+    Jan. 15, 2017
+  </div>
 </div>
 
 <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
-	<div class="unit-spacer">
-		Camera Ready Submission Deadline
-	</div>
+  <div class="unit-spacer">
+    Notification of Authors
+  </div>
 </div>
-</div> -->
+</div>
+
+<div class="grid events">
+<div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
+  <div class="date">
+    Feb. 1, 2017
+  </div>
+</div>
+
+<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
+  <div class="unit-spacer">
+    Final Version of Extended Abstract or Paper Submission Deadline
+  </div>
+</div>
+</div>
+
   </div>
   </div>
 </div>
 
 <footer id="contact">
-	<div class="grid">
-	<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
-	<div class="unit-spacer">
-		<h2>Contact Us</h2>
-		<p class="body">International ASET Inc.<br>
-		Unit No. 417, 1376 Bank St.<br>
-		Ottawa, Ontario, Canada<br>
-		Postal Code: K1H 7Y3<br>
-		+1-613-695-3040<br>
-		<a href="mailto:info@mhciconference.com">info@mhciconference.com</a></p>
-		</div>
-	</div>
+  <div class="grid">
+  <div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
+  <div class="unit-spacer">
+    <h2>Contact Us</h2>
+    <p class="body">International ASET Inc.<br>
+    Unit No. 417, 1376 Bank St.<br>
+    Ottawa, Ontario, Canada<br>
+    Postal Code: K1H 7Y3<br>
+    +1-613-695-3040<br>
+    <a href="mailto:info@snsmconference.com">info@snsmconference.com</a></p>
+    </div>
+  </div>
 
-	<div class="unit unit-s-1 unit-m-2-3 unit-l-2-3 contact">
-	<div class="unit-spacer">
-	<p class="body">For questions or comments regarding MHCI'16, please fill out the form below:</p>
+  <div class="unit unit-s-1 unit-m-2-3 unit-l-2-3 contact">
+  <div class="unit-spacer">
+  <p class="body">For questions or comments regarding SNSM'17, please fill out the form below:</p>
 
     <form action="../contactus.php" method="post" enctype="multipart/form-data" name="ContactForm">
   
@@ -395,14 +401,14 @@ mail($your_email,$your_subject,$message,$your_headers);
         
 </form>
     </div>
-	</div>
-	</div>
+  </div>
+  </div>
 </footer> 
 
 <div class="copyright">
-	<a href="international-aset.com">International ASET Inc.</a> | <a href="http://international-aset.com/phplistpublic/?p=subscribe&id=1">Subscribe</a> | <a href="../terms">Terms of Use</a> | <a href="../sitemap">Sitemap</a>
-	<p class="body">&copy; Copyright International ASET Inc., 2015. All rights reserved.</p>
-	<p class="copyright1">Have any feedback? Please provide them here: <script>var refURL = window.location.protocol + "//" + window.location.host + window.location.pathname; document.write('<a href="http://international-aset.com/feedback/?refURL=' + refURL+'" class="body-link">Feedback</a>');</script></p>
+  <a href="international-aset.com">International ASET Inc.</a> | <a href="http://international-aset.com/phplistpublic/?p=subscribe&id=1">Subscribe</a> | <a href="../terms">Terms of Use</a> | <a href="../sitemap">Sitemap</a>
+  <p class="body">&copy; Copyright International ASET Inc., 2016. All rights reserved.</p>
+  <p class="copyright1">Have any feedback? Please provide them here: <script>var refURL = window.location.protocol + "//" + window.location.host + window.location.pathname; document.write('<a href="http://international-aset.com/feedback/?refURL=' + refURL+'" class="body-link">Feedback</a>');</script></p>
 </div>
 </div>
 
