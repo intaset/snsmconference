@@ -249,7 +249,7 @@ mail($your_email,$your_subject,$message,$your_headers);
       <ul>
         <li>Day 1: Workshop(s) and Registration</li>
         <li>Day 2: Main Track Conference Sessions</li>
-        <li>Day 2: Main Track Conference Sessions and Gala dinner or Cruise tour</li>
+        <li>Day 3: Main Track Conference Sessions and Gala dinner or Cruise tour</li>
       </ul>
       
       <p class="body">Registration for the workshop will be 121 EURs (VAT included) and separate from the main conferences. Workshop attendees will receive a certificate of participation. For registration, please visit: <a href="../registration" class="body-link">here</a>.</p>
@@ -308,14 +308,14 @@ mail($your_email,$your_subject,$message,$your_headers);
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
   <div class="date">
      <div class="past">Dec. 1, 2016</div>
-     Feb. 3, 2017
+     Mar. 20, 2017
   </div>
 </div>
 
 <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
   <div class="unit-spacer">
      <div class="past past-text">Paper Submission Deadline</div>
-     Extended Paper Submission Deadline
+     Final Extended Paper Submission Deadline
   </div>
 </div>
 </div>
@@ -324,14 +324,14 @@ mail($your_email,$your_subject,$message,$your_headers);
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
   <div class="date">
     <div class="past">Feb. 15, 2017</div>
-    Mar. 1, 2017
+    Mar. 27, 2017
   </div>
 </div>
 
 <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
   <div class="unit-spacer">
     <div class="past past-text">Notification of Authors</div> 
-      Extended Notification of Authors
+      Final Extended Notification of Authors
   </div>
 </div>
 </div>
@@ -340,7 +340,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
   <div class="date">
     <div class="past">Mar. 1, 2017</div>
-    Mar. 31, 2017
+    Apr. 20, 2017
   </div>
 </div>
 
